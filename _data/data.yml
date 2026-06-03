@@ -22,33 +22,33 @@ info:
 - idiom: English
 level: Professional
 
-```
+
   - idiom: Hindi
     level: Professional
 
   - idiom: Marathi
     level: Native
-```
+
 
 interests:
 title: Interests
 info:
 - item: Automation Testing
 
-```
+
   - item: Banking Domain
 
   - item: API Testing
 
   - item: Learning New Technologies
-```
+
 
 career-profile:
 title: Career Profile
 summary: |
 Software Test Engineer with 6.7+ years of experience in Information Technology specializing in Software Quality Assurance Testing for Web-based applications.
 
-```
+
 Expertise in Manual and Automation Testing using Selenium WebDriver, TestNG, Cucumber, Core Java, SQL, and API Testing.
 
 Experienced in Agile, Scrum, and Waterfall methodologies with strong knowledge of SDLC and STLC processes.
@@ -56,7 +56,7 @@ Experienced in Agile, Scrum, and Waterfall methodologies with strong knowledge o
 Skilled in Functional Testing, Regression Testing, Smoke Testing, Backend Testing, Database Testing, Cross Browser Testing, UI Validation, and Automation Framework development including Data Driven, Hybrid, POM, and BDD frameworks.
 
 Hands-on experience with tools such as Selenium, TestNG, Maven, XRAY, HP ALM, JIRA, Postman, SQL Server, Oracle, and Git.
-```
+
 
 education:
 title: Education
@@ -71,7 +71,7 @@ experiences:
 title: Experiences
 info:
 
-```
+
 - role: Software Test Engineer
   time: Feb 2022 - Present
   company: Wipro Limited, Pune
@@ -98,13 +98,13 @@ info:
     - Reported and tracked defects using HP ALM.
     - Participated in Agile/Scrum methodology and daily stand-up meetings.
     - Developed reusable automation scripts using Java and Selenium.
-```
+
 
 projects:
 title: Projects
 assignments:
 
-```
+
 - title: Counterparty Limit Monitoring and Flags (CRX)
   link: "#"
   tagline: "Centralized dashboard covering Market, Credit, and Liquidity Risk information for Credit Suisse."
@@ -120,14 +120,14 @@ assignments:
 - title: BT MARIGOLD E2E
   link: "#"
   tagline: "Customer Centric Platform testing project for British Telecom covering Billing, Mobility, and PSTN."
-```
+
 
 skills:
 title: Skills & Proficiency
 
 toolset:
 
-```
+
 - name: Selenium WebDriver
   level: 95%
 
@@ -163,7 +163,7 @@ toolset:
 
 - name: Oracle / SQL Server / MySQL
   level: 85%
-```
+
 
 footer: >
 Designed by Shubham Gawade
