@@ -1,139 +1,286 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
 sidebar:
-  position: right
-  about: True
-  education: True
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-  name: Shubham Gawade
-  tagline: Software Test Engineer
-  avatar:  shubham-profile.png
+  # Profile information
+  name: Alan Doe
+  tagline: Full Stack Developer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  email: shubham.gawade1406@gmail.com
-  phone: "+91 9665346968"
-  timezone: Asia/Kolkata
-  citizenship: Indian
-
-  linkedin: https://www.linkedin.com/in/shubham-gawade-568639227/
-  github: https://github.com/shubham-72777/
-  portfolio: https://github.com/shubham-72777/online-resume/
-  website:
+  # Sidebar links
+  email: example@email.com
+  phone: 012 345 6789
+  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship:
+  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: alandoe
+  xing: alandoe
+  github: jekyll
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  twitter: '@jekyllrb'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
     info:
-      - idiom: English
-        level: Professional
+    - idiom: English
+      level: Native
 
-      - idiom: Hindi
-        level: Professional
+    - idiom: French
+      level: Professional
 
-      - idiom: Marathi
-        level: Native
+    - idiom: Spanish
+      level: Professional
 
   interests:
     title: Interests
     info:
-      - item: Automation Testing
+    - item: Climbing
+      link:
 
-      - item: Banking Domain
 
-      - item: Learning New Technologies
+    - item: Snowboarding
+      link:
+
+
+    - item: Cooking
+      link:
+
 
 career-profile:
   title: Career Profile
   summary: |
-    Software Test Engineer with 6.6+ years of experience in Manual and Automation Testing in the 2018Banking Domain. Skilled in Selenium WebDriver, TestNG, Cucumber, SQL, PL/SQL, XRAY, and Agile methodology. Experienced in Functional, Regression, Smoke, Integration, and Database Testing with strong knowledge of Automation Frameworks and Backend Validation.
-
+    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+    Second paragraph if required.
 education:
   title: Education
   info:
-    - degree: Bachelor of Engineering
-      University: Pune University
-      time:
-      details: |
-        Completed a Bachelor of Engineering from Pune University.
+  - degree: MSc in Computer Science
+    university: University of London
+    time: 2011 - 2012
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - degree: BSc in Applied Mathematics
+    university: Bristol University
+    time: 2007 - 2011
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
 
 experiences:
   title: Experiences
   info:
-    - role: Software Test Engineer
-      time: Feb 2022 - Present
-      company: Wipro Limited, Pune
-      details: |
-        - Performed Functional, Regression, Smoke, Integration, and Database Testing.
-        - Automated regression test cases using Selenium WebDriver with TestNG and Cucumber.
-        - Executed SQL queries for backend data validation and reconciliation testing.
-        - Logged and tracked defects using XRAY/JIRA and HP ALM.
-        - Participated in Agile ceremonies, including Scrum meetings and sprint reviews.
-        - Worked on Banking and Risk Management domain applications.
+  - role: Lead Developer
+    time: 2015 - Present
+    company: Startup Hubs, San Francisco
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+        - Bullet point
+        - Bullet point
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
 
-      - role: Software Test Engineer 
-        time: Aug 2018 - Feb 2022
-        company: Infosol Consultancy Service, Pune
-        details: |
-         - Performed Manual and Automation Testing for Telecom domain applications.
-         - Designed and executed Selenium WebDriver automation scripts using TestNG.
-         - Involved in Regression Testing, Functional Testing, Smoke Testing, and UAT Testing.
-         - Executed SQL queries for backend database validation.
-         - Reported and tracked defects using HP ALM.
-         - Participated in Agile/Scrum methodology and daily stand-up meetings. 
-         - Developed reusable automation scripts using Java and Selenium.
+certifications:
+  title: Certifications
+  list:
+  - name: CV Builder
+    start: 2020
+    end: 2021
+    organization: Microsoft
+    credentialid: 111-222
+    credentialurl: www.google.com
+    credentialname: Google
+    details: |
+      Details about cert. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.
+      Nullam eget orci purus. Nullam ultrices neque nibh.
+      Aenean fermentum, felis vulputate suscipit accumsan,
+      sem enim bibendum augue, sed convallis arcu lacus at dui.
+      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      Praesent venenatis erat non augue suscipit consectetur.
+
+      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+      fringilla vel. Ut euismod, sem sed vulputate venenatis,
+      justo diam viverra velit, sed rhoncus leo leo eu justo.
+      Suspendisse placerat risus ante, sed porta nisi blandit at.
+  - name: Git learning
+    start: 2019
+    end:
+    organization: Microsoft
+    credentialid: 111-222
+    credentialurl: www.github.com
+    credentialname: Github
+    details: |
+      Older certification. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit.
+      Nullam eget orci purus. Nullam ultrices neque nibh.
+      Aenean fermentum, felis vulputate suscipit accumsan,
+      sem enim bibendum augue, sed convallis arcu lacus at dui.
+      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+      Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
   title: Projects
+  intro: >
+    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-    - title: Client Money Tactical Tool (CMT)
-      link: "#"
-      tagline: "Banking regulatory compliance application for client money segregation."
+  - title: Velocity
+    link: "#hook"
+    tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-    - title: Counterparty Limit Monitoring and Flags (CRX)
-      link: "#"
-      tagline: "Risk monitoring dashboard for credit and market risk."
+  - title: DevStudio
+    link: "#"
+    tagline: "A responsive website template designed to help web developers/designers market their services."
 
-    - title: Flags and Limits Excess Management (FLEX)
-      link: "#"
-      tagline: "Application for risk limits and excess workflow management."
+  - title: Tempo
+    link: "#"
+    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-    - title: Time Series Reference Data (TSRD)
-      link: "#"
-      tagline: "System supporting historical market risk and VaR calculations."
-      
-    - title: BT MARIGOLD E2E 
-      link: "#" 
-      tagline: "Customer Centric Platform testing project for British Telecom covering Billing, Mobility, and PSTN."
+  - title: Atom
+    link: "#"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+  - title: Delta
+    link: "#"
+    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+  title: OSS Contributions
+  intro: >
+    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  contributions:
+  - title: Tempo
+    link: "#"
+    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+  - title: Atom
+    link: "#"
+    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+  - title: Delta
+    link: "#"
+    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+  - title: The Art of Computer Programming
+    link: "#"
+    authors: Donald E. Knuth
+    conference: Addison-Wesley, 1968
+
+  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+    link: "#"
+    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+  - title: A syntax directed compiler for Algol 60
+    link: "#"
+    authors: Edgar T. Irons
+    conference: "Comm. ACM 4 (1961), 51–55"
+
+recommendations:
+  title: Recommendations
+  list:
+  - person: Yareli Perez
+    email: perezyareli@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      Alan Doe is a super employee!
+  - person: Lara Henderson
+    email: larah@example.com
+    phone: 012 345 6789
+    role: General Director at example.com
+    recommendation: |
+      I would like to work with Alan Doe again!
+
+      He is a great employee!
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-    - name: Selenium WebDriver
-      level: 90%
+  - name: Python & Django
+    level: 98%
 
-    - name: TestNG
-      level: 85%
+  - name: Javascript & jQuery
+    level: 98%
 
-    - name: Cucumber
-      level: 85%
+  - name: Angular
+    level: 98%
 
-    - name: Core Java
-      level: 80%
+  - name: HTML5 & CSS
+    level: 95%
 
-    - name: SQL & PL/SQL
-      level: 85%
+  - name: Ruby on Rails
+    level: 85%
 
-    - name: XRAY / JIRA
-      level: 80%
-
-    - name: Manual Testing
-      level: 90%
-
-    - name: Automation Testing
-      level: 85%
-
-    - name: Agile Methodology
-      level: 80%
-
-    - name: Oracle / SQL Server / MySQL
-      level: 80%
+  - name: Sketch & Photoshop
+    level: 60%
 
 footer: >
-  Designed by Shubham Gawade
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
