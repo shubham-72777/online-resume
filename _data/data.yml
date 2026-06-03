@@ -63,36 +63,49 @@ education:
         
 certifications:
   title: Certifications
-  info:
-    - certificate: MasterClass Software Testing with Jira & Agile - Be a QA Lead
-      organization: Udemy
-      issue_date: Jan 2023
-      credential_url: https://ude.my/UC-788c7526-cbc8-428f-be10-32c93d0d2986
+  list:
 
-    - certificate: HP UFT - Basic to Intermediate
+    - name: MasterClass Software Testing with Jira & Agile - Be a QA Lead
+      start: 2023
       organization: Udemy
-      issue_date: Apr 2022
-      credential_url: https://www.udemy.com/certificate/UC-56c3895a-fa38-453b-8fbb-a2d16421f5ad/
+      credentialid: UC-788c7526-cbc8-428f-be10-32c93d0d2986
+      credentialname: View Certificate
+      credentialurl: https://ude.my/UC-788c7526-cbc8-428f-be10-32c93d0d2986
 
-    - certificate: Scrum Certification 2023 + Scrum Master + Agile Scrum Training
+    - name: HP UFT - Basic to Intermediate
+      start: 2022
       organization: Udemy
-      issue_date: Dec 2022
-      credential_url: https://www.udemy.com/certificate/UC-e96b0e87-d252-4b45-8087-11942b0ddaae/
+      credentialid: UC-56c3895a-fa38-453b-8fbb-a2d16421f5ad
+      credentialname: View Certificate
+      credentialurl: https://www.udemy.com/certificate/UC-56c3895a-fa38-453b-8fbb-a2d16421f5ad/
 
-    - certificate: Selenium WebDriver with Java - Basics to Advanced + Frameworks
+    - name: Scrum Certification 2023 + Scrum Master + Agile Scrum Training
+      start: 2022
       organization: Udemy
-      issue_date: Jan 2023
-      credential_url: https://ude.my/UC-d06ecbf7-8a11-4e4a-95cb-b3101e9b25d1
+      credentialid: UC-e96b0e87-d252-4b45-8087-11942b0ddaae
+      credentialname: View Certificate
+      credentialurl: https://www.udemy.com/certificate/UC-e96b0e87-d252-4b45-8087-11942b0ddaae/
 
-    - certificate: The Complete Java Certification Course
+    - name: Selenium WebDriver with Java - Basics to Advanced + Frameworks
+      start: 2023
       organization: Udemy
-      issue_date: Aug 2023
-      credential_url: https://www.udemy.com/certificate/UC-0a210a9a-22a5-4e33-9624-0b1bb11fde66/
+      credentialid: UC-d06ecbf7-8a11-4e4a-95cb-b3101e9b25d1
+      credentialname: View Certificate
+      credentialurl: https://ude.my/UC-d06ecbf7-8a11-4e4a-95cb-b3101e9b25d1
 
-    - certificate: XPath Locator for Selenium
+    - name: The Complete Java Certification Course
+      start: 2023
       organization: Udemy
-      issue_date: Jul 2024
-      credential_url: https://ude.my/UC-15770555-91eb-4c84-a248-de31a5e521f9
+      credentialid: UC-0a210a9a-22a5-4e33-9624-0b1bb11fde66
+      credentialname: View Certificate
+      credentialurl: https://www.udemy.com/certificate/UC-0a210a9a-22a5-4e33-9624-0b1bb11fde66/
+
+    - name: XPath Locator for Selenium
+      start: 2024
+      organization: Udemy
+      credentialid: UC-15770555-91eb-4c84-a248-de31a5e521f9
+      credentialname: View Certificate
+      credentialurl: https://ude.my/UC-15770555-91eb-4c84-a248-de31a5e521f9
       
 experiences:
   title: Experiences
