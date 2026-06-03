@@ -1,151 +1,139 @@
 sidebar:
-position: right
-about: True
-education: True
+  position: right
+  about: True
+  education: True
 
-name: Shubham Gawade
-tagline: Test Engineer
-avatar: shubham-profile.png
+  name: Shubham Gawade
+  tagline: Software Test Engineer
+  avatar:  shubham-profile.png
 
-email: shubham.gawade1406@gmail.com
-phone: "+91 9665346968"
-timezone: Asia/Kolkata
-citizenship: Indian
+  email: shubham.gawade1406@gmail.com
+  phone: "+91 9665346968"
+  timezone: Asia/Kolkata
+  citizenship: Indian
 
-website: https://shubham-72777.github.io/online-resume/
-linkedin: shubham-gawade-568639227
-github: shubham-72777
+  linkedin: https://www.linkedin.com/in/shubham-gawade-568639227/
+  github: https://github.com/shubham-72777/
+  portfolio: https://github.com/shubham-72777/online-resume/
+  website:
 
-languages:
-title: Languages
-info:
-- idiom: English
-level: Professional
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Professional
 
-- idiom: Hindi
-  level: Professional
-  
-- idiom: Marathi
-  level: Native
+      - idiom: Hindi
+        level: Professional
 
-interests:
-title: Interests
-info:
-- item: Automation Testing
+      - idiom: Marathi
+        level: Native
 
-- item: Banking Domain
+  interests:
+    title: Interests
+    info:
+      - item: Automation Testing
 
-- item: API Testing
+      - item: Banking Domain
 
-- item: Learning New Technologies
+      - item: Learning New Technologies
 
 career-profile:
-title: Career Profile
-summary: |
-Software Test Engineer with 6.7+ years of experience in Information Technology specializing in Software Quality Assurance Testing for Web-based applications.
-Expertise in Manual and Automation Testing using Selenium WebDriver, TestNG, Cucumber, Core Java, SQL, and API Testing. Experienced in Agile, Scrum, and Waterfall methodologies with strong knowledge of SDLC and STLC processes.
-Skilled in Functional Testing, Regression Testing, Smoke Testing, Backend Testing, Database Testing, Cross Browser Testing, UI Validation, and Automation Framework development including Data Driven, Hybrid, POM, and BDD frameworks.
-Hands-on experience with tools such as Selenium, TestNG, Maven, XRAY, HP ALM, JIRA, Postman, SQL Server, Oracle, and Git.
+  title: Career Profile
+  summary: |
+    Software Test Engineer with 6.6+ years of experience in Manual and Automation Testing in the 2018Banking Domain. Skilled in Selenium WebDriver, TestNG, Cucumber, SQL, PL/SQL, XRAY, and Agile methodology. Experienced in Functional, Regression, Smoke, Integration, and Database Testing with strong knowledge of Automation Frameworks and Backend Validation.
+
 education:
-title: Education
-info:
-- degree: Bachelor of Engineering
-university: Pune University
-time: 2013 - 2018
-details: |
-Completed Bachelor of Engineering from Pune University.
+  title: Education
+  info:
+    - degree: Bachelor of Engineering
+      University: Pune University
+      time:
+      details: |
+        Completed a Bachelor of Engineering from Pune University.
 
 experiences:
-title: Experiences
-info:
+  title: Experiences
+  info:
+    - role: Software Test Engineer
+      time: Feb 2022 - Present
+      company: Wipro Limited, Pune
+      details: |
+        - Performed Functional, Regression, Smoke, Integration, and Database Testing.
+        - Automated regression test cases using Selenium WebDriver with TestNG and Cucumber.
+        - Executed SQL queries for backend data validation and reconciliation testing.
+        - Logged and tracked defects using XRAY/JIRA and HP ALM.
+        - Participated in Agile ceremonies, including Scrum meetings and sprint reviews.
+        - Worked on Banking and Risk Management domain applications.
 
-- role: Software Test Engineer
-  time: Feb 2022 - Present
-  company: Wipro Limited, Pune
-  details: |
-    - Performed Functional, Regression, Smoke, Integration, Backend, and Database Testing.
-    - Automated regression test cases using Selenium WebDriver with TestNG and Cucumber.
-    - Developed and maintained Hybrid, Data Driven, and POM frameworks.
-    - Executed SQL queries for backend data validation and reconciliation testing.
-    - Logged and tracked defects using XRAY, JIRA, and HP ALM.
-    - Participated in Agile ceremonies including Scrum meetings and sprint reviews.
-    - Performed Cross Browser Testing using Chrome, Firefox, IE, and Safari.
-    - Worked on Banking and Risk Management domain applications.
-    - Executed API Testing using Postman.
-    - Used Maven and Git for automation project management.
+      - role: Software Test Engineer 
+        time: Aug 2018 - Feb 2022
+        company: Infosol Consultancy Service, Pune
+        details: |
+         - Performed Manual and Automation Testing for Telecom domain applications.
+         - Designed and executed Selenium WebDriver automation scripts using TestNG.
+         - Involved in Regression Testing, Functional Testing, Smoke Testing, and UAT Testing.
+         - Executed SQL queries for backend database validation.
+         - Reported and tracked defects using HP ALM.
+         - Participated in Agile/Scrum methodology and daily stand-up meetings. 
+         - Developed reusable automation scripts using Java and Selenium.
 
-- role: Software Test Engineer
-  time: Aug 2018 - Feb 2022
-  company: Infosol Consultancy Service, Pune
-  details: |
-  - Performed Manual and Automation Testing for Telecom domain applications.
-  - Designed and executed Selenium WebDriver automation scripts using TestNG.
-  - Involved in Regression Testing, Functional Testing, Smoke Testing, and UAT Testing.
-  - Executed SQL queries for backend database validation.
-  - Reported and tracked defects using HP ALM.
-  - Participated in Agile/Scrum methodology and daily stand-up meetings.
-  - Developed reusable automation scripts using Java and Selenium.
-  
 projects:
-title: Projects
-assignments:
+  title: Projects
+  assignments:
+    - title: Client Money Tactical Tool (CMT)
+      link: "#"
+      tagline: "Banking regulatory compliance application for client money segregation."
 
-- title: Counterparty Limit Monitoring and Flags (CRX)
-  link: "#"
-  tagline: "Centralized dashboard covering Market, Credit, and Liquidity Risk information for Credit Suisse."
-  
-- title: Flags and Limits Excess Management (FLEX)
-  link: "#"
-  tagline: "Risk constraints and excess workflow management application for Credit Suisse."
-  
-- title: Time Series Reference Data (TSRD)
-  link: "#"
-  tagline: "Market risk system supporting historical risk time-series data and VaR calculations."
-  
-- title: BT MARIGOLD E2E
-  link: "#"
-  tagline: "Customer Centric Platform testing project for British Telecom covering Billing, Mobility, and PSTN."
+    - title: Counterparty Limit Monitoring and Flags (CRX)
+      link: "#"
+      tagline: "Risk monitoring dashboard for credit and market risk."
 
-  skills:
-title: Skills & Proficiency
+    - title: Flags and Limits Excess Management (FLEX)
+      link: "#"
+      tagline: "Application for risk limits and excess workflow management."
 
-toolset:
+    - title: Time Series Reference Data (TSRD)
+      link: "#"
+      tagline: "System supporting historical market risk and VaR calculations."
+      
+    - title: BT MARIGOLD E2E 
+      link: "#" 
+      tagline: "Customer Centric Platform testing project for British Telecom covering Billing, Mobility, and PSTN."
 
-- name: Selenium WebDriver
-  level: 95%
+skills:
+  title: Skills &amp; Proficiency
 
-- name: TestNG
-  level: 90%
+  toolset:
+    - name: Selenium WebDriver
+      level: 90%
 
-- name: Cucumber
-  level: 85%
+    - name: TestNG
+      level: 85%
 
-- name: Core Java
-  level: 85%
+    - name: Cucumber
+      level: 85%
 
-- name: SQL / PL SQL
-  level: 90%
+    - name: Core Java
+      level: 80%
 
-- name: API Testing (Postman)
-  level: 80%
+    - name: SQL & PL/SQL
+      level: 85%
 
-- name: JIRA / XRAY / HP ALM
-  level: 90%
+    - name: XRAY / JIRA
+      level: 80%
 
-- name: Automation Testing
-  level: 95%
+    - name: Manual Testing
+      level: 90%
 
-- name: Manual Testing
-  level: 95%
+    - name: Automation Testing
+      level: 85%
 
-- name: Agile / Scrum
-  level: 90%
+    - name: Agile Methodology
+      level: 80%
 
-- name: Maven / Git
-  level: 80%
-
-- name: Oracle / SQL Server / MySQL
-  level: 85%
+    - name: Oracle / SQL Server / MySQL
+      level: 80%
 
 footer: >
-© 2026 Shubham Gawade | Software Test Engineer
+  Designed by Shubham Gawade
