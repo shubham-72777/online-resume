@@ -1,5 +1,5 @@
 sidebar:
-  position: left
+  position: right
   about: True
   education: True
 
@@ -145,7 +145,7 @@ projects:
 
   assignments:
 
-     - title: Client Money Tool (CMT)
+    - title: Client Money Tool (CMT)
       link: "#"
       tagline: "Centralized platform for monitoring, reconciliation, and reporting of client funds to ensure regulatory compliance and financial transparency."
       
