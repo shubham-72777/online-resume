@@ -12,7 +12,7 @@ sidebar:
   timezone: Asia/Kolkata
   citizenship: Indian
 
-  website: https://shubham-72777.github.io/online-resume/
+  # website: https://shubham-72777.github.io/online-resume/
   linkedin: shubham-gawade-568639227
   github: shubham-72777
   
@@ -31,7 +31,7 @@ sidebar:
   interests:
     title: Interests
     info:
-      - item: Automation Testing
+      - item: Selenium Java Automation Testing
 
       - item: Banking Domain
 
@@ -42,7 +42,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Over 6.7 years of experience in Information Technology specializing in Software Quality Assurance Testing with expertise in Web based applications and Core Java.
+    Over 3.9 years of experience in Information Technology specializing in Software Quality Assurance Testing with expertise in Web based applications and Core Java.
 
     Extensive experience in all phases of SDLC using Agile, Scrum and Waterfall methodologies.
 
@@ -126,17 +126,17 @@ experiences:
         - Used Maven and Git for automation project management.
         - Performed cross-browser testing using Chrome, Firefox, IE and Safari.
 
-    - role: Software Test Engineer
-      time: Aug 2018 - Feb 2022
-      company: Infosol Consultancy Service, Pune
-      details: |
-        - Worked on Telecom domain applications for British Telecom.
-        - Performed Manual and Automation Testing using Selenium WebDriver and TestNG.
-        - Involved in Functional Testing, Regression Testing, Smoke Testing and UAT Testing.
-        - Executed SQL queries for backend database validation.
-        - Reported and tracked defects using HP ALM.
-        - Participated in Agile/Scrum methodology and daily stand-up meetings.
-        - Developed reusable automation scripts using Java and Selenium.
+    # - role: Software Test Engineer
+    #   time: Aug 2018 - Feb 2022
+    #   company: Infosol Consultancy Service, Pune
+    #   details: |
+    #     - Worked on Telecom domain applications for British Telecom.
+    #     - Performed Manual and Automation Testing using Selenium WebDriver and TestNG.
+    #     - Involved in Functional Testing, Regression Testing, Smoke Testing and UAT Testing.
+    #     - Executed SQL queries for backend database validation.
+    #     - Reported and tracked defects using HP ALM.
+    #     - Participated in Agile/Scrum methodology and daily stand-up meetings.
+    #     - Developed reusable automation scripts using Java and Selenium.
 
 projects:
   title: Projects
@@ -145,6 +145,10 @@ projects:
 
   assignments:
 
+     - title: Client Money Tool (CMT)
+      link: "#"
+      tagline: "Centralized platform for monitoring, reconciliation, and reporting of client funds to ensure regulatory compliance and financial transparency."
+      
     - title: Counterparty Limit Monitoring and Flags (CRX)
       link: "#"
       tagline: "Centralized dashboard covering Market, Credit and Liquidity Risk information for Credit Suisse."
@@ -157,9 +161,9 @@ projects:
       link: "#"
       tagline: "Market risk system supporting historical market risk time series and VaR calculations."
 
-    - title: BT MARIGOLD E2E
-      link: "#"
-      tagline: "Customer Centric Platform testing project for British Telecom."
+    # - title: BT MARIGOLD E2E
+    #   link: "#"
+    #   tagline: "Customer Centric Platform testing project for British Telecom."
 
 skills:
   title: Skills &amp; Proficiency
