@@ -33,7 +33,7 @@ sidebar:
     info:
       - item: Selenium Java Automation Testing
 
-      - item: Banking Domain
+      - item: Investment Banking Domain (BFSI)
 
       - item: API Testing
 
@@ -141,7 +141,7 @@ experiences:
 projects:
   title: Projects
   intro: >
-    Banking and Telecom domain automation and testing projects.
+     Investment Banking domain (BFSI) automation and testing projects.
 
   assignments:
 
