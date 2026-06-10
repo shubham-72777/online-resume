@@ -1,6 +1,6 @@
 sidebar:
-  position: right
-  about: True
+  position: left
+  # about: True
   education: True
 
   name: Shubham Gawade
@@ -207,4 +207,4 @@ skills:
       level: 85%
 
 footer: >
-  © 2026 Shubham Gawade | Test Engineer
+  © 2026 Shubham Gawade | Automation Test Engineer
